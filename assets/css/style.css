@@ -8687,11 +8687,12 @@ del {
   max-width: 809px;
   margin-left: auto;
   margin-right: auto;
-  background: grey;
-  border-top: 6px solid #FFAC88;
+  background: #f0f4fa;
+  border-top: 8px solid #FFAC88;
   padding: 30px;
   margin-bottom: 40px;
   margin-top:40px;
+  border-radius: 3px;
 }
 /* end */
 

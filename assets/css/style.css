@@ -121,6 +121,24 @@
   width: 220px;
 }
 
+#mission-vision-div{
+  background-color: #ffff;
+}
+
+#mission-div{
+  background-color:#F0F4FA;
+}
+#vision-div{
+  background-color:#ffff ;
+}
+.mission-vision-title{
+  border-top:7px solid #FFAC88;
+}
+.mission-vision-bold{
+  color:#000;
+}
+
+
 /*--
     - Overlay
 ------------------------------------------*/
@@ -1145,6 +1163,14 @@ hr {
 /* line 495, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .mb-85 {
   margin-bottom: 85px;
+}
+
+.mb-8{
+  font-size:18px;
+}
+
+.mb-8 li{
+  font-size:18px;
 }
 
 /* line 495, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
@@ -3337,6 +3363,8 @@ hr {
   padding: 0px 130px;
 }
 
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 125, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
   .header-area .header-bottom {
@@ -3590,6 +3618,10 @@ hr {
   background-size: cover;
 }
 
+.slider-height3{
+  height:751.09px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height2 {
@@ -3601,6 +3633,7 @@ hr {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 250px;
+   
   }
 }
 
@@ -3759,8 +3792,65 @@ hr {
   z-index: -1;
   background-repeat: no-repeat;
 }
-
+/* slider-area 3 start */
 /* line 113, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+.slider-area3 {
+  background-image: url(../img/mission&vision/mission.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center center;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area3 .hero-cap {
+    padding-top: 50px;
+    
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area3 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area3 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+.slider-area3 .hero-cap h2 {
+  color: #072366;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area3 .hero-cap h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area3 .hero-cap h2 {
+    font-size: 35px;
+  }
+}
+/* slider-area 3 end */
+
+
+/* slider-area 2 start */
 .slider-area2 {
   background-image: url(../img/about-us/About\ Us.jpg);
   background-repeat: no-repeat;
@@ -3813,6 +3903,8 @@ hr {
     font-size: 35px;
   }
 }
+
+/* slider-area 2 end */
 
 /* line 1, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_about.scss */
 .about-low-area {
@@ -4149,6 +4241,7 @@ hr {
 
 .service-area .single-cat:hover .cat-cap .sdga {
   color: black;
+  
 }
 /* my own end */
 
@@ -8650,6 +8743,8 @@ del {
   padding-top:30px;
   padding-bottom:30px;
   margin-top:30px;
+  
+  font-size:xx-large;
 }
 
 #donate{
@@ -8695,5 +8790,60 @@ del {
   border-radius: 3px;
 }
 /* end */
+
+/* mission vission block start */
+.block-photo-sections .itm .text {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.33;
+  font-family: "Montserrat";
+}
+.block-photo-sections{
+  display:block;
+}
+
+.about-item-img{
+  border-radius: 20px;
+  border:solid,0.05px;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+
+.with-line {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 2px;
+}
+
+.with-line:after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  background: #FFAC88;
+  height: 2px;
+  
+}
+
+#vision{
+  
+    vertical-align: middle;
+    border-style: none;
+    position:left;
+}
+
+.with-bg{
+  display:block;
+}
+
+
+
+/* mission vision block end */
 
 /*# sourceMappingURL=style.css.map */

@@ -3855,8 +3855,8 @@ hr {
   background-image: url(../img/about-us/About\ Us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
   background-position: center center;
+  
 
 }
 
@@ -3905,6 +3905,183 @@ hr {
 }
 
 /* slider-area 2 end */
+
+/* slider-area 4 start */
+.slider-area4 {
+  background-image: url(../img/about-us/About\ Us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center center;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area4 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area4 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area4 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+.slider-area4 .hero-cap h2 {
+  color: #072366;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area4 .hero-cap h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area4 .hero-cap h2 {
+    font-size: 35px;
+  }
+}
+
+/* slider-area 4 end */
+
+/* slider-area 5 masterclass start */
+
+.slider-area5 {
+  background-image: url(../img/masterclass/masterclass-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area5 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area5 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area5 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+.slider-area5 .hero-cap h2 {
+  color: #072366;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area5 .hero-cap h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area5 .hero-cap h2 {
+    font-size: 35px;
+  }
+}
+
+/* slider area 5 masterclass end */
+
+
+/* slider area 6 braventure start */
+
+.slider-area6 {
+  background-image: url(../img/braventure/vb-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  
+
+}
+
+.slider-area6::before{
+  background: #000;
+  opacity: 0.38;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area6 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area6 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area6 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+.slider-area6 .hero-cap h2 {
+  color: #072366;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area6 .hero-cap h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area6 .hero-cap h2 {
+    font-size: 35px;
+  }
+}
+/* slider area 6 braventure end */
 
 /* line 1, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_about.scss */
 .about-low-area {
@@ -3965,6 +4142,10 @@ hr {
   color: #26264b;
   font-size: 20px;
   font-weight: 500;
+}
+
+#braventure-link{
+  color:#10285D;
 }
 
 /* line 38, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_about.scss */

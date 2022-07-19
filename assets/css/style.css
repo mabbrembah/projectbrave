@@ -4083,6 +4083,117 @@ hr {
 }
 /* slider area 6 braventure end */
 
+
+/* slider area 7 sanitarypad bank start */
+.slider-area7 {
+  background-image: url(../img/sanitarypad-bank/sanitarypad-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area7 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area7 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area7 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+.slider-area7 .hero-cap h2 {
+  color: #072366;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area7 .hero-cap h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area7 .hero-cap h2 {
+    font-size: 35px;
+  }
+}
+/* slider area 7 sanitary pad bank end */
+
+/* slider area 8 summer camp start */
+.slider-area8 {
+  background-image: url(../img/summer-camp/summer-camp-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area8 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area8 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 117, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area8 .hero-cap {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+.slider-area8 .hero-cap h2 {
+  color: #072366;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area8 .hero-cap h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area8 .hero-cap h2 {
+    font-size: 35px;
+  }
+}
+/* slder area 8 summer camp end */
+
 /* line 1, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_about.scss */
 .about-low-area {
   position: relative;

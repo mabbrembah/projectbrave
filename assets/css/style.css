@@ -8228,8 +8228,7 @@ del {
 .block-alert{
   background:#FFAC88;
   height:50px;
-  margin-top: 0px;
-  padding-top: 0px;
+ 
 
 }
 #link-to-apply{
@@ -9148,6 +9147,9 @@ del {
 
 
 /* video details start*/
+#myVideo{
+  margin-bottom: -6px;
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

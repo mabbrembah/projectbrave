@@ -213,6 +213,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
@@ -3580,13 +3581,15 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 920px;
+  height: 1078.25px;
+  /* 920 */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 700px;
+     height: 700px; 
+ 
   }
 }
 
@@ -3618,9 +3621,7 @@ hr {
   background-size: cover;
 }
 
-.slider-height3{
-  height:751.09px;
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
@@ -3644,12 +3645,16 @@ hr {
   }
 }
 
+.slider-height3{
+  height:751.09px;
+}
+
 /* line 32, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area {
-  background-image: url(../img/home/homepage_banner.jpg);
+  /* background-image: url(../img/home/homepage_banner.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
@@ -3670,7 +3675,7 @@ hr {
     line-height: 1.2;
   }
   .slider-area {
-    background-image: url(../img/home/homepage_banner.jpg);
+    /* background-image: url(../img/home/homepage_banner.jpg); */
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -3905,6 +3910,8 @@ hr {
 }
 
 /* slider-area 2 end */
+
+
 
 /* slider-area 4 start */
 .slider-area4 {
@@ -9133,9 +9140,39 @@ del {
 .with-bg{
   display:block;
 }
-
-
-
 /* mission vision block end */
+
+
+
+
+/* video details start*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  #myVideo {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  #myVideo {
+    height: 250px;
+   
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  #myVideo {
+    height: 250px;
+  }
+}
+
+
+
+
+/* video details end */
 
 /*# sourceMappingURL=style.css.map */

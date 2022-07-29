@@ -8228,6 +8228,8 @@ del {
 .block-alert{
   background:#FFAC88;
   height:50px;
+  margin-top: 0px;
+  padding-top: 0px;
 
 }
 #link-to-apply{

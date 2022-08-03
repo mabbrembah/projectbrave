@@ -763,6 +763,7 @@ hr {
   /* background: rgba(60, 199, 143, 0.06); */
   position: relative;
   background: fff;
+  /* background-image: url(../img/hero/h1_hero.png); */
 
 }
 
@@ -9156,6 +9157,7 @@ del {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
     height: 350px;
+    
   }
 }
 

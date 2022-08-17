@@ -214,6 +214,7 @@ body {
   font-style: normal;
   font-size: 16px;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
@@ -755,7 +756,7 @@ hr {
   }
 }
 
-/* testimonial video area start*/
+
 
 
 /* line 7, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
@@ -877,6 +878,26 @@ hr {
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   background: #fff;
 }
+
+
+/* testimonial video iframe start */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* testimonial video iframe end */
+
+
 
 /* Sticky end */
 /*--- Margin & Padding --*/
@@ -9150,6 +9171,7 @@ del {
 /* video details start*/
 #myVideo{
   margin-bottom: -6px;
+
 }
 
 
@@ -9180,5 +9202,12 @@ del {
 
 
 /* video details end */
+
+/* main overflow hidden  start*/
+  main{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+/* main overflow hidden end */
 
 /*# sourceMappingURL=style.css.map */

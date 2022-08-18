@@ -195,34 +195,29 @@
                             </div>
                         </form> -->
                     <!-- mine start -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" id="contactForm" novalidate  method="post" action="contact_me.php">
                         <div class="row">
                           <div class="col-12">
                             <div class="form-group">
-                              <input type="text" id="name" class="form-control w-100" placeholder="Name" required="required">
+                              <input type="text" id="name" class="form-control w-100" placeholder="Name" required="required" name="name">
                               <p class="help-block text-danger"></p>
                             </div>
                           </div>
                           <div class="col-sm-6 mb-20 pt-25">
                             <div class="form-group">
-                              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                              <input type="email" id="email" class="form-control" placeholder="Email" required="required" name="email">
                               <p class="help-block text-danger"></p>
                             </div>
                           </div>
                         </div>
                         <div class="form-group">
-                          <textarea name="message" id="message" class="form-control" rows="9" cols="30" placeholder="Message" required></textarea>
+                          <textarea name="message" id="message" class="form-control" rows="9" cols="30" placeholder="Message" required="required" name="message"></textarea>
                           <p class="help-block text-danger"></p>
                         </div>
-                        <!-- captcha area start -->                           
-
-                        <!--inside the form tag-->
-                      <!--this custom_captcha id is used in js file,you can change in js and html both-->
-                        <div id="custom_captcha"></div>
-                        <!--inside the form tag-->
-                        <!-- captcha area end -->
+                      
                         <div id="success"></div>
-                        <button type="submit" class="btn btn-custom btn-lg mt-20">Send Message</button>
+                        <!-- <button type="submit" class="btn btn-custom btn-lg mt-20" >Send Message</button> -->
+                        <button ><input type="submit" value="Send Form"></button>
                       </form>
                     <!-- mine end -->
                     </div>

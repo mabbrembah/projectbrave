@@ -95,11 +95,7 @@
                                                 </li>
                                                 <li><a href="contact.html">CONTACT</a></li>                                                
                                                 <li>
-                                                    <!-- <a href="#" id="donate">DONATE</a> -->
-                                                    <form>
-                                                        <script src="https://js.paystack.co/v1/inline.js"></script>
-                                                        <button type="button" id="donate" onclick="payWithPaystack()"> DONATE</button> 
-                                                    </form>
+                                                    <a href="https://paystack.com/pay/projectbrave" target="_blank" id="donate">DONATE</a>
                                                 </li> 
                                                 </div>
                                                 
@@ -487,57 +483,7 @@
     <script src="./assets/js/main.js"></script>
 
     <!-- payment -->
-    <script>
-        //    function payWithPaystack(){ 
-        //     var paymentForm = document.getElementById('paymentForm');
-        //         paymentForm.addEventListener('submit', payWithPaystack, false);
-        //                 function payWithPaystack() {
-        //         var handler = PaystackPop.setup({
-        //         key: 'pk_test_ace72a81a8d4fcf3570b720d0286f814ff1157a7', // Replace with your public key
-        //         email: document.getElementById('email-address').value,
-        //         amount: document.getElementById('amount').value * 100, // the amount value is multiplied by 100 to convert to the lowest currency unit
-        //         currency: 'GHS', // Use GHS for Ghana Cedis or USD for US Dollars
-        //         ref: 'YOUR_REFERENCE', // Replace with a reference you generated
-        //         callback: function(response) {
-        //             //this happens after the payment is completed successfully
-        //             var reference = response.reference;
-        //             alert('Payment complete! Reference: ' + reference);
-        //             // Make an AJAX call to your server with the reference to verify the transaction
-        //         },
-        //         onClose: function() {
-        //             alert('Transaction was not completed, window closed.');
-        //         },
-        //         });
-        //         handler.openIframe();
-        //      }
-        //     }
-             function payWithPaystack(){
-              var handler = PaystackPop.setup({
-                key: 'pk_test_ace72a81a8d4fcf3570b720d0286f814ff1157a7',
-                email: 'customer@email.com',
-                amount: 10000,
-                currency: 'GHS',
-                ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
-                metadata: {
-                   custom_fields: [
-                      {
-                          display_name: "Mobile Number",
-                          variable_name: "mobile_number",
-                          value: "+2348012345678"
-                      }
-                   ]
-                },
-                callback: function(response){
-                    alert('success. transaction ref is ' + response.reference);
-                },
-                onClose: function(){
-                    alert('window closed');
-                }
-              });
-              handler.openIframe();
-            }
-    </script>
-        
+  
 
     
     </body>

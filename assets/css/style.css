@@ -9304,29 +9304,32 @@ del {
 
 /* video details start*/
 #myVideo{
-  margin-bottom: -6px;
+  margin-bottom: -6px;  
   /* width:100em; */
-  width:1600px;
+  /* width:1600px; */
+
  
  
 
 
 }
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  #myVideo{
+    height: 880px;
+  }
+}
 
-
-@media only screen and (min-width: 48em) and (max-width: 61.9375em) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    height: 350px;
-    font-family: "Montserrat";   
+    height: 350px;   
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    height: 250px;
-    font-family: "Montserrat";   
+    height: 250px;   
   }
 }
 

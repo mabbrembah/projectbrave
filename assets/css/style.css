@@ -9314,7 +9314,8 @@ del {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    height: 350px;
+    /* height: 350px; */
+    height: 21.875em;
     font-family: "Montserrat";
     
     
@@ -9324,7 +9325,8 @@ del {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    height: 250px;
+    /* height: 250px; */
+    height: 15.625em;
     font-family: "Montserrat";
     
    
@@ -9334,7 +9336,9 @@ del {
 @media (max-width: 575px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    height: 250px;
+    /* height: 250px; */
+    height: 15.625em;
+   
     
   }
 }

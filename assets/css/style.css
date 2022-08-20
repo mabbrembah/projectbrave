@@ -9305,47 +9305,38 @@ del {
 /* video details start*/
 #myVideo{
   margin-bottom: -6px;
-  width:100em;
+  /* width:100em; */
+  width:1600px;
+ 
+ 
 
 
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 48em) and (max-width: 61.9375em) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    /* height: 350px; */
-    height: 21.875em;
-    font-family: "Montserrat";
-    
-    
+    height: 350px;
+    font-family: "Montserrat";   
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    /* height: 250px; */
-    height: 15.625em;
-    font-family: "Montserrat";
-    
-   
+    height: 250px;
+    font-family: "Montserrat";   
   }
 }
 
 @media (max-width: 575px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   #myVideo {
-    /* height: 250px; */
-    height: 15.625em;
-   
+    height: 250px;  
     
   }
 }
-
-
-
-
 
 /* video details end */
 
